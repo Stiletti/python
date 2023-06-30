@@ -25,7 +25,7 @@ final_score = int(con_score1 + con_score2)
 
 if final_score < 10 or final_score > 90:
     print(f"Your score is {final_score}, you go together like coke and mentos !")
-elif final_score > 40 and final_score > 50:
+elif final_score > 40 and final_score < 50:
     print(f"Your score is {final_score}, your alright together !")
 else:
     print(f"Your score is {final_score}.")
