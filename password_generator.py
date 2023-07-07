@@ -39,7 +39,7 @@ def make_str_pw(password):
 
 
 def randomize_pw(password):
-    # convert pw into str to make a save for the used pw easier
+    # convert pw into str to make a save for the used pw possible
     make_str_pw(password)
     # create variable for used rand number
     used_rand_num = 0
